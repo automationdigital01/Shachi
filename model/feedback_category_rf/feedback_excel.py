@@ -1,11 +1,9 @@
 import streamlit as st
 import pandas as pd
 import string
-import nltk
 from nltk.corpus import stopwords
 from nltk import PorterStemmer
 import joblib as jb
-import time
 
 nltk.download('stopwords')
 
@@ -49,31 +47,6 @@ def app():
     st.set_page_config(
     page_title="Feedback Categorization"
     )
-
-    # st.markdown(
-    # """
-    # <style>
-    # .logo-container {
-    #     display: flex;
-    #     position:absolute;
-    #     top:0;
-    #     left:0;
-    #     z-index:999;
-
-    # }
-    # </style>
-    # """,
-    # unsafe_allow_html=True
-    # )
-
-    # st.markdown(
-    #     """
-    #     <div class="logo-container">
-    #         <img src='./logo.png' alt="Technip Logo" width="200">
-    #     </div>
-    #     """,
-    #     unsafe_allow_html=True
-    # )
 
 
     st.image('logo.png', width=200)
