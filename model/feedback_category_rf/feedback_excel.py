@@ -7,6 +7,7 @@ from nltk import PorterStemmer
 import joblib as jb
 import time
 
+nltk.download('stopwords')
 
 rf_loaded=jb.load('feedback_model.pkl')
 v=jb.load('tfidf_vectorizer.pkl')
