@@ -5,7 +5,6 @@ from nltk.corpus import stopwords
 from nltk import PorterStemmer
 import joblib as jb
 
-nltk.download('stopwords')
 
 rf_loaded=jb.load('feedback_model.pkl')
 v=jb.load('tfidf_vectorizer.pkl')
