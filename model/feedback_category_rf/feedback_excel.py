@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import string
+import nltk
 from nltk.corpus import stopwords
 from nltk import PorterStemmer
 import joblib as jb
