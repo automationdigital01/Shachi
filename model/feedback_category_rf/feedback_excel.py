@@ -1,6 +1,7 @@
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+import sklearn
 import streamlit as st
 import pandas as pd
 import string
