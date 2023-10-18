@@ -9,7 +9,7 @@ from nltk import PorterStemmer
 import joblib as jb
 
 
-rf_loaded=jb.load('feedback_model.pkl')
+rf_loaded=jb.load('model/feedback_category_rf/feedback_model.pkl')
 v=jb.load('tfidf_vectorizer.pkl')
 sentiment_pipeline=jb.load('sentiment.pkl')
 
