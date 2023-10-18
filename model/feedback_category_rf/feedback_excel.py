@@ -8,7 +8,7 @@ import string
 from nltk.corpus import stopwords
 from nltk import PorterStemmer
 import joblib as jb
-
+import sklearn
 
 rf_loaded=jb.load('model/feedback_category_rf/feedback_model.pkl')
 v=jb.load('tfidf_vectorizer.pkl')
