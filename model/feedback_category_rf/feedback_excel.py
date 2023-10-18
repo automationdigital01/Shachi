@@ -9,10 +9,12 @@ from nltk.corpus import stopwords
 from nltk import PorterStemmer
 import joblib as jb
 import sklearn
+from transformers import pipeline
+
+sentiment_pipeline=pipeline('sentiment-analysis')
 
 rf_loaded=jb.load('model/feedback_category_rf/feedback_model.pkl')
 v=jb.load('tfidf_vectorizer.pkl')
-sentiment_pipeline=jb.load('sentiment.pkl')
 
 
 
