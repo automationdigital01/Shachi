@@ -2,7 +2,4 @@ streamlit
 joblib
 nltk
 pandas
-matplotlib
-seaborn
-scikit-learn
-spacy transformers
+
