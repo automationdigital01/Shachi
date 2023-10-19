@@ -14,8 +14,8 @@ from transformers import pipeline
 
 sentiment_pipeline=pipeline('sentiment-analysis')
 
-rf_loaded=jb.load('model/feedback_category_rf/feedback_model.pkl')
-v=jb.load('model/feedback_category_rf/tfidf_vectorizer.pkl')
+rf_loaded=jb.load('model/feedback_category_rf/feedback_model_updated.pkl')
+v=jb.load('model/feedback_category_rf/tfidf_vectorizer_updated.pkl')
 
 
 
