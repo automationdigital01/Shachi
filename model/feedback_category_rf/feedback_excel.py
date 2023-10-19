@@ -59,7 +59,7 @@ def app():
     st.title("Feedback Categorization App")
     st.write("\n\n")
 
-
+    #text input
     input_text=st.text_input('Enter your feedback here')
     if st.button('Categorize') and input_text:
         prediction=predict_category(input_text)
@@ -71,7 +71,7 @@ def app():
 
     st.write('### OR')
 
-
+    #file uploader
     file=st.file_uploader('Please upload your feedback file here',type=['xlsx'])
     if file is not None:
         st.success('File is uploaded successfully')
@@ -80,7 +80,13 @@ def app():
             df['feedback_category']=df['Feedback'].apply(predict_category)
             df['Sentiment']=df['Feedback'].apply(sentiment_category)
             df.to_excel('Predicted_feedbacks.xlsx',index=False)
-        st.info('Feedback categorization complete and saved as Predicted_feedbacks.xlsx !')
+            st.toast('Feedback Categorization is completed')
+        with open('Predicted_feedbacks.xlsx','rb') as file:
+            click=st.download_button('Download Output File',file,file_name='Predicted_feedbacks_output.xlsx',mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        if click:
+            st.toast('Predicted_feedbacks_output.xlsx is downloaded')
         st.dataframe(df)
+
+
 if __name__== '__main__':
     app()
