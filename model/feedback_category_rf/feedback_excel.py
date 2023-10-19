@@ -54,7 +54,7 @@ def app():
     )
 
 
-    st.image('logo.png', width=200)
+    st.image('model/feedback_category_rf/logo.png', width=200)
     st.title("Feedback Categorization App")
     st.write("\n\n")
 
