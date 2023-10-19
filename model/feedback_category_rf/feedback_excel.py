@@ -1,6 +1,3 @@
-
-!pip install openpyxl
-
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
