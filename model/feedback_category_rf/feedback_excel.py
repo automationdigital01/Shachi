@@ -10,7 +10,7 @@ from nltk import PorterStemmer
 import joblib as jb
 import sklearn
 from transformers import pipeline
-import openpyxl
+
 
 sentiment_pipeline=pipeline('sentiment-analysis')
 
