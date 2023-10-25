@@ -173,7 +173,7 @@ def main():
         with col3:
             # username = os.getlogin()
             username = "User"
-            st.image("logo/USER LOGin.png", width=70)
+            st.image("supplier/logo/USER LOGin.png", width=70)
             st.markdown(
             f"<span style='color: #1E90FF; margin-left: 10px;'>Welcome {username}!</span>", unsafe_allow_html=True)
             
@@ -189,7 +189,7 @@ def main():
 
 
 
-    st.sidebar.image("logo/TECHNIP_ENERGIES_LOGO.png", width=100)
+    st.sidebar.image("supplier/logo/TECHNIP_ENERGIES_LOGO.png", width=100)
 
     dataframe_data=[]
     links_list=[]
