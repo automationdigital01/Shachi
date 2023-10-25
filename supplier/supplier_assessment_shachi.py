@@ -171,7 +171,7 @@ def main():
             st.write("")
             st.markdown("<h3><span style='color: #1E90FF'>Supplier's </span> "   " <span style='color: #92D293'>News Analysis</span></h3>", unsafe_allow_html=True)
         with col3:
-            username = os.getlogin()
+            # username = os.getlogin()
             username = "User"
             st.image("logo/USER LOGin.png", width=70)
             st.markdown(
