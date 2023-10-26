@@ -282,7 +282,9 @@ def main():
         "https://finance.yahoo.com/news/opportunity-balfour-beatty-plcs-lon-092347887.html",
         "https://simplywall.st/stocks/gb/capital-goods/lse-bby/balfour-beatty-shares/news/is-balfour-beatty-lonbby-using-too-much-debt-1",
         "https://www.marketscreener.com/quote/stock/BALFOUR-BEATTY-PLC-4000600/news/Balfour-Beatty-Delivering-a-versatile-multi-purpose-residential-development-45080163/",
-        "https://www.marketscreener.com/quote/stock/BALFOUR-BEATTY-PLC-4000600/news/Balfour-Beatty-awarded-c-43-million-contract-to-upgrade-London-Underground-s-Piccadilly-line-45077873/"
+        "https://www.marketscreener.com/quote/stock/BALFOUR-BEATTY-PLC-4000600/news/Balfour-Beatty-awarded-c-43-million-contract-to-upgrade-London-Underground-s-Piccadilly-line-45077873/",
+        "https://finance.yahoo.com/news/halliburton-company-nyse-hal-q3-140514557.html",
+        "https://finance.yahoo.com/news/q3-2023-halliburton-co-earnings-025400593.html"
 
         ]
 
